@@ -1,0 +1,97 @@
+.banner{
+    background-image: url('https://riki.edu.vn/library-n5/images/bgr.png') ;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-title{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 5rem 0;
+    z-index: 10;
+}
+
+.banner-title h1{
+    font-size: 3.5em;
+    font-weight: 900;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 8px 0;
+}
+
+.btn_1{
+    background-color: #FF5722;
+    border: none;
+    padding: 16px 36px;
+    font-size: 22px;
+    border-radius: 40px;
+    margin: 15px 0;
+    color: aliceblue;
+}
+
+/*navbar */
+ #navbar{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 3px #AAA;
+    background-color: #fff;
+    top: 0;
+}
+
+#container{
+    
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 15rem;
+    background-color: #fff;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    padding: px 0;
+}
+
+.menu-tag{
+    display: flex;
+    list-style: none;
+    
+}.menu-tag > li {
+    padding: 16px 16px;
+}
+
+.menu-tag a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+
+.menu-tag li:hover{
+    border-bottom: 3px solid #00aba2;
+    margin-bottom: -3px;
+    
+}
+
+/* body */
+
+#body-content{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.gioithieu{
+    display: flex;
+    justify-content: space-around;
+}
+
