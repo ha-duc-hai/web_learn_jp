@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/bass.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bass.css"> -->
     <link rel="stylesheet" href="./assets/css/index-menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
 <body>
-    <div class="app">
+    <!-- <div class="app">
         <div class="banner">
             <div class="banner-title">
-                
                <h1>Khóa Học Tiếng Nhật Online</h1>
                <h1>N5,N4,N3 for Free </h1>
                <h2>Đạt JLPT N5 chỉ sau 2 tháng học Online tại nhà</h2>
-               <button class="btn btn_1">
+               <button class="btn btn_1" id="button" onclick="startCourse()">
                    Bắt đầu khóa học
                </button>
             </div>
         </div>
-        
-    </div>
+    </div> -->
+
+    <section>
+        <ul>
+            <li><a href="trangchu.html" data-text="Home" onclick="startCourse()">Home</a></li>
+            <li><a href="about.html" data-text="About">About</a></li>
+            <li><a href="#" data-text="Services">Services</a></li>
+            <li><a href="team.html" data-text="Team" onclick="openTeam()">Team</a></li>
+            <li><a href="#" data-text="Contact">Contact</a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
