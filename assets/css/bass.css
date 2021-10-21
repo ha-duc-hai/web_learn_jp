@@ -1,14 +1,13 @@
 *{
     box-sizing: inherit;
-    
 }
 body{
     margin: 0;
     padding: 0;
 }
-html {  
+html {
      font-size: 100%;
-     line-height: 16px;
+     line-height: 1rem;
      font-family: 'Roboto', sans-serif;
      box-sizing: border-box;
 }
@@ -16,8 +15,9 @@ html {
 .app{
     width: 100%;
     height: auto;
-    /* background-color: #f0faf5; */
+    background-color: #f0faf5;
 }
+
 p{
     line-height: 1.3em;
 }

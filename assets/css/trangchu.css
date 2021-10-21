@@ -4,16 +4,18 @@
     box-shadow: 3px 3px 3px #AAA;
     background-color: #fff;
     top: 0;
-    position: fixed;
+    /* position: fixed; */
     z-index: 999;
 }.container{
-    
     width: 100%;
     left: 0;
     right: 0;
     top: 0;
     padding: 0 15rem;
-    
+}
+
+.menu {
+    width: 100%;
 }
 
 .container-main{
@@ -25,7 +27,6 @@
 .menu-tag{
     display: flex;
     list-style: none;
-    
 }.menu-tag > li {
     padding: 16px 16px;
 }
@@ -42,7 +43,6 @@
 .menu-tag li:hover{
     border-bottom: 3px solid #00aba2;
     margin-bottom: -3px;
-    
 }
 
 /* body */
@@ -55,7 +55,6 @@
 
 .section_1{
     padding: 2rem 0;
-    
 }
 
 .section_1-row{
@@ -100,7 +99,6 @@
     width: 70%;
     box-shadow: 0px 5px 10px -5px #636363;
     margin-left: 16px;
-    
 }
 
 
@@ -184,7 +182,7 @@
     background: #fff;
     padding: 20px 0;
 }
- 
+
 .HeadingSection{
     display: flex;
     align-items: center;
@@ -226,7 +224,6 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    
 }
 .tab-button .a1{
     border-bottom-color: #00c0b6;
@@ -268,14 +265,12 @@
 }
 
 .owl-carousel {
-    
     width: 100%;
     z-index: 1;
 }
 
 .owl-carousel, .owl-carousel .owl-item {
     -webkit-tap-highlight-color: transparent;
-        
 }
 
 .abc{
@@ -295,8 +290,6 @@
     min-height: 200px;
     padding: 20px 15px;
     border: 1px solid #ebe9e9;
-    
-   
     backdrop-filter: blur(4px);
     z-index: 1;
 }
@@ -371,3 +364,24 @@ p {
     color: #f3fcfc;
 }
 
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.logo > a > img {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
