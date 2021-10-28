@@ -1,0 +1,31 @@
+.list_course .menu_part {
+    display: flex;
+    justify-content: center;
+}
+
+
+.list_course .menu_part ul {
+    display: flex;
+}
+
+.list_course .menu_part ul li{
+    list-style: none;
+    width: 320px;
+    height: 70px;
+    background-color: #00C0B6;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.list_course .menu_part ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+

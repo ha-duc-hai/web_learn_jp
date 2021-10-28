@@ -1,10 +1,24 @@
 $(function() {
     $(".header").load("header.html");
-    // $(".main").load("home.html");
+    $(".main").load("home.html");
     $(".footer").load("footer.html");
 });
 
-function clickNavViewListCourse() {
+function openPart1() {
+    
+}
+
+function clickNavHome() {
+    $(".main").load("home.html");
+    buildTable();
+}
+
+function clickViewListCourse() {
+    $(".main").load("viewlistCourse.html");
+    buildTable();
+}
+
+function clickNavViewListWord() {
     $(".main").load("viewlistWord.html");
     buildTable();
 }
