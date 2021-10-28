@@ -10,9 +10,24 @@
 <body>
   <?php 
         include "../backend/connect.php";
-        echo "<br>";
+        // echo "<br>";
+        // echo "<a href = './view_tu_vung_n5.php?lesson=1'> Bài 1</a> <br>";
+        // echo "<a href = './view_tu_vung_n5.php?lesson=2'> Bài 2</a> <br>";
+        // echo "<a href = 'view_tu_vung_n5.php?lesson=3'> Bài 3</a> <br>";
         // include "get_data.php";
-        $sql = "SELECT * FROM bai1";
+        $lesson = $_GET['lesson'];
+        switch ($lesson){
+            case 1:
+                $sql = "SELECT * FROM bai1";
+                break;
+            case 2:
+                $sql = "SELECT * FROM bai2";
+                break;
+            case 3:
+                $sql = "SELECT * FROM bai3";
+                break;
+        }
+        
         $result = $conn->query($sql);
     ?>
 
