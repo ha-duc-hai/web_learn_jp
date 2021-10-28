@@ -4,10 +4,6 @@ $(function() {
     $(".footer").load("footer.html");
 });
 
-function openPart1() {
-    
-}
-
 function clickNavHome() {
     $(".main").load("home.html");
     buildTable();
