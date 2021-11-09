@@ -1,31 +1,77 @@
-.list_course .menu_part {
-    display: flex;
-    justify-content: center;
+.container {
+    margin-top: 70px;
 }
 
+.container .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
 
-.list_course .menu_part ul {
-    display: flex;
-}
+.container .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    height: 60px;
+  }
 
-.list_course .menu_part ul li{
-    list-style: none;
-    width: 320px;
-    height: 70px;
+.container .tab button:hover {
     background-color: #00C0B6;
-    margin: 10px;
-    text-align: center;
-    justify-content: center;
+  }
+
+.container .tab button.active {
+    background-color: #00C0B6;
+  }
+
+  .tab>.tablinks1{
+    display: block;
+    background-color: #00C0B6;
+    width: 33.33%;
+  }
+
+  .tab .tablinks2{
+    width: 33.33%;
+  }
+
+  .tab .tablinks3{
+    width: 33.33%;
+  }
+  .container #stage1{
+    display: block;
 }
 
-.list_course .menu_part ul li a {
-    display: flex;
-    text-decoration: none;
+.container .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+
+
+a{
     color: black;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    padding-top: 20px;
+    text-decoration: none;
 }
 
+a:hover{
+    color: red;
+}
 
+li {
+    list-style: none;
+}
+
+.tabcontent ul li{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 30px 10px 15px;
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}

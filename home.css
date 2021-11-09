@@ -1,6 +1,11 @@
+.home{
+    margin-top: 70px;
+}
+
 .home_body img {
     width: 100%;
     align-items: center;
+
 }
 
 .button-64 {

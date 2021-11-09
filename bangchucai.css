@@ -1,0 +1,66 @@
+.content{
+    margin-top: 80px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h1{
+    color: #0C1D3C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.content .hiragana .p1{
+    font-weight: normal;
+    font-style: italic;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .hiragana img {
+    height: 384px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.hiragana h2{
+    color: #B22222;
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hiragana h3{
+    color: #FF0000;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hiragana p{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.katakana img {
+    height: 384px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.katakana h2{
+    color: #B22222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.katakana p3{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

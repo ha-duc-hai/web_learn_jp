@@ -1,30 +1,57 @@
-<div class="list_course">
-    <div class="menu_part">
-        <ul>
-            <li><a href="menu_part1" onclick="openPart1()">Giai đoạn 1</a></li>
-            <li><a href="menu_part2" onclick="openPart2()">Giai đoạn 2</a></li>
-            <li><a href="menu_part3" onclick="openPart3()">Giai đoạn 3</a></li>
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- import bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="listCourse.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="home.html">Home</a>
+        <a href="viewListCourse.html">View List Course</a>
+        <a>Từ vựng</a>
+        <a>Ngữ pháp</a>
     </div>
-    <div class="content-lesson">
-        <div id="part1" class="part">
+
+    <div class="list_course container" id="list_course">
+        <div class="tab">
+            <button class="tablinks1 tablinks" onclick="openStage(event, 'stage1')">Giai đoạn 1</button>
+            <button class="tablinks2 tablinks" onclick="openStage(event, 'stage2')">Giai đoạn 2</button>
+            <button class="tablinks tablinks3" onclick="openStage(event, 'stage3')">Giai đoạn 3</button>
+        </div>
+
+        <div id="stage1" class="tabcontent">
             <ul>
                 <li>
                     <a href="">Giới thiệu khóa học</a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="bangchucai.html">
                         Học bảng chữ cái tiếng Nhật
                     </a>
                 </li>
                 <li>
-                    <a href="viewBai1.html">Bài 01: Giới thiệu bản thân</a>
+                    <a href="./viewBai1.php?lesson=1">Bài 01: Giới thiệu bản thân</a>
                 </li>
                 <li>
-                    <a href="">Bài 02: Đây là cái gì ấy nhỉ</a>
+                    <a href="./viewBai1.php?lesson=2">Bài 02: Đây là cái gì ấy nhỉ</a>
                 </li>
                 <li>
-                    <a href="">Bài 03: Đây là đâu?</a>
+                    <a href="./viewBai1.php?lesson=3">Bài 03: Đây là đâu?</a>
                 </li>
                 <li>
                     <a href="">Bài 04: Ngày nào tớ cũng học từ thứ 2 đến thứ 6</a>
@@ -40,7 +67,8 @@
                 </li>
             </ul>
         </div>
-        <div class="part2 part">
+
+        <div id="stage2" class="tabcontent">
             <ul>
                 <li>
                     <a href="">Bài 08: Chú chó dễ thương quá</a>
@@ -71,7 +99,8 @@
                 </li>
             </ul>
         </div>
-        <div class="part3 part">
+
+        <div id="stage3" class="tabcontent">
             <ul>
                 <li>
                     <a href="">Bài 17: Còn trẻ mà, chưa cần lấy chồng cũng được</a>
@@ -103,5 +132,77 @@
             </ul>
         </div>
     </div>
-</div>
 
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="https://phenikaa-uni.edu.vn:3600/pu/vi/modules/logo_vn.png">
+            <h3>Phenikaa<span>University</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Team</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 Nihongo Learning Solutions Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>A4 - 405,
+                        K13 CNTT - Việt Nhật</span>
+                    Khoa CNTT - Đại học Phenikaa</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">support@eduonix.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the team</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and
+                Humanities.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openStage(evt, stageLevel) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(stageLevel).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>

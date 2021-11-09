@@ -1,13 +1,14 @@
 $(function() {
     $(".header").load("header.html");
     $(".main").load("home.html");
-    $(".footer").load("footer.html");
+    // $(".footer").load("footer.html");
 });
 
 function clickNavHome() {
     $(".main").load("home.html");
     buildTable();
 }
+
 
 function clickViewListCourse() {
     $(".main").load("viewlistCourse.html");
