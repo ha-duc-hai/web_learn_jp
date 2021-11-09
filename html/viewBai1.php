@@ -14,11 +14,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="viewBai1.css">
+  <link rel="stylesheet" href="../css/viewBai1.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
@@ -56,7 +56,7 @@
 
       </a>
       <div class="card-body">
-        <?php 
+        <?php
         echo '<a href="./backend/view_ngu_phap_n5.php?lesson='.$lesson.'">';
         ?>
           <h3 class="card-title">Phần 2: Ngữ pháp</h3>
@@ -69,7 +69,7 @@
           class="card-img-top" alt="">
       </a>
       <div class="card-body">
-      <?php 
+      <?php
         echo '<a href="./backend/view_kanji_n5.php?lesson='.$lesson.'">';
         ?>
           <h3 class="card-title">Phần 3: Kanji</h3>
