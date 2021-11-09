@@ -1,0 +1,31 @@
+.content_intro{
+    margin-top: 80px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_intro h1{
+    color: #0C1D3C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+h3{
+    color: #B22222;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, ul>li {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin-left: 27px;
+}
+
+ul>li {
+    margin-left: 43px;
+}
