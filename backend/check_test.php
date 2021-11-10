@@ -7,5 +7,4 @@ for ($i = 1; $i<=10; $i++){
     
 }
 echo '<h1>Chúc mừng bạn đã đúng '.$d.' câu </h1>';
-if (dung 8 cau) -> cap
 ?>

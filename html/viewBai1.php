@@ -43,7 +43,7 @@
 
       <div class="card-body">
         <?php
-        echo '<a href="./backend/view_tu_vung_n5.php?lesson='.$lesson.'">';
+        echo '<a href="../backend/view_tu_vung_n5.php?lesson='.$lesson.'">';
         ?>
           <h3 class="card-title">Phần 1: Từ vựng</h3>
         </a>
@@ -57,7 +57,7 @@
       </a>
       <div class="card-body">
         <?php
-        echo '<a href="./backend/view_ngu_phap_n5.php?lesson='.$lesson.'">';
+        echo '<a href="../backend/view_ngu_phap_n5.php?lesson='.$lesson.'">';
         ?>
           <h3 class="card-title">Phần 2: Ngữ pháp</h3>
         </a>
@@ -70,7 +70,7 @@
       </a>
       <div class="card-body">
       <?php
-        echo '<a href="./backend/view_kanji_n5.php?lesson='.$lesson.'">';
+        echo '<a href="../backend/view_kanji_n5.php?lesson='.$lesson.'">';
         ?>
           <h3 class="card-title">Phần 3: Kanji</h3>
         </a>
